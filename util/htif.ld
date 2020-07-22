@@ -3,7 +3,7 @@ ENTRY (_start)
 
 SECTIONS
 {
-    . = 0x80000000;
+    . = 0x40000000;
 
     /* Keep under a power of 2 to reserve space for TCB */
     PROVIDE (__stack_size_min = 24K);
